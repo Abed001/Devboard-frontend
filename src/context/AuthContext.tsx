@@ -3,11 +3,12 @@ import {
   useContext,
   useState,
   useEffect,
-  ReactNode,
 } from "react";
 import type { User } from "../types";
 import { login as loginApi, signup as signupApi } from "../services/api";
 import axios from "axios";
+
+import type { ReactNode } from "react";
 
 interface AuthContextType {
   user: User | null;
