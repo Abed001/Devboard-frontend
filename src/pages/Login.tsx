@@ -18,6 +18,7 @@ export default function Login() {
       navigate("/dashboard");
     } catch (err) {
       // Error handled by context
+      console.log(err);
     }
   };
 
